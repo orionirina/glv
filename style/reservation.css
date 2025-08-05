@@ -1,0 +1,33 @@
+h1{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.container-fluid h7{
+    justify-content: center;
+    text-align: center;
+}
+input{
+    justify-content:top;
+}
+.DHdebut{
+    display: flex;
+}
+.DHfin{
+    display: flex;
+}
+.div_2{
+    margin-left: 50px;
+    background-color: rgb(182, 176, 176);
+}
+.heure{
+    margin-top: -20px;
+}
+.bg2{
+    background-color: rgb(182, 176, 176);
+}
+.containeur_div p{
+    color: aliceblue;
+    margin-top: 30px;
+}

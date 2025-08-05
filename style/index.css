@@ -1,0 +1,100 @@
+.login{
+     margin-top: 10px;
+     border: 2px solid #246bf0;
+     border-radius: 10px;
+     width: 500px;
+    
+     margin-left: 450px;
+     margin-bottom: 100px;
+}
+
+.logo{
+     justify-content:  center;
+     text-align: center;
+}
+.titre{
+     text-align: center;
+}
+.input{
+     text-align: center;
+     margin-top: 24px;
+     margin-left: 50px;
+     
+}
+ .input-box input{
+     margin-top: 5px;
+     margin-bottom: 30px;
+     height: 100%;
+     width: 80%;
+}
+.button{
+     text-align: center;
+     background-color:rgb(19, 19, 99);
+     width: 25%;
+     height: 6%;
+     padding-top: 8px;
+     justify-content: center;
+     margin-left: 185px;
+     border-radius: 20px;
+     margin-top: 7px;
+}
+h1{
+     color: rgb(19, 19, 99);
+}
+h4{
+     text-align: center;
+     color: blue;
+}
+h3{
+     text-align: center;
+     margin-top: 20px;
+}
+h6{
+     text-align: center;
+     margin-top: 30px;
+     text-decoration: none;
+}
+
+.button .btn{
+     color: white;
+     text-align: center;
+     justify-content: center;
+     
+     
+}
+
+.login_google{
+     display: flex;
+     border-color: #246bf0;
+     text-align: center;
+     justify-content: center;
+     margin-top: 25px;
+     margin-bottom: 20px;
+     border: 2px solid;
+     border-radius: 20px;
+     width:300px ;
+     margin-left: 100px;
+}
+
+.login_google .logo_google{
+     margin-right: 20px;
+}
+
+.login_facebook .logo_facebook{
+     margin-right: 20px;
+}
+.login_facebook{
+     display: flex;
+     border-color: #246bf0;
+     text-align: center;
+     justify-content: center;
+     margin-top: 25px;
+     margin-bottom: 50px;
+     border: 2px solid;
+     border-radius: 20px;
+     width:300px ;
+     margin-left: 100px;
+}
+.forme{
+     margin-left: 50px;
+}
