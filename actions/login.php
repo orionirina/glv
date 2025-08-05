@@ -8,8 +8,8 @@
     if($email !="" && $mdp !="")
         {
             
-            $req = $bdd ->prepare("SELECT * FROM utilisateurs WHERE email= :email AND mdp= :mdp ");
-            $req ->execute([ 'email' => $email, 'mdp' =>$mdp ]);
+            $req = $bdd ->prepare("SELECT * FROM user WHERE email= :email AND password= :password ");
+            $req ->execute([ 'email' => $email, 'password' =>$mdp ]);
             $user = $req-> fetch();
             if($user){
                 header("Location: ../pages/choix.php");

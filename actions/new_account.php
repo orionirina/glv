@@ -7,12 +7,12 @@
         $email = $_POST['email'];
         $mdp = $_POST['mdp'];
 
-        $requete = $bdd->prepare("INSERT INTO utilisateurs VALUES (0,:nom,:email,:mdp)");
+        $requete = $bdd->prepare("INSERT INTO user VALUES (0,:name, :email, :password)");
         $requete->execute(
         array(
-            "nom"=>$nom,
-            "email"=>$email,
-            "mdp"=>$mdp,
+            "nom" => $nom,
+            "email" => $email,
+            "password" => $mdp,
         )
         );
         header("Location: ../pages/choix.php");

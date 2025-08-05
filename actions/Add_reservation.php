@@ -15,7 +15,7 @@ if (
 
     try {
         // Préparer la requête
-        $requete = $bdd->prepare("INSERT INTO ReservationsAccepte VALUES (0, :nom, :contact, :nom_voiture, :DateDebut, :DateFin, :HeureDebut, :HeureFin)");
+        $requete = $bdd->prepare("INSERT INTO reservations VALUES (0, :nom, :contact, :nom_voiture, :DateDebut, :DateFin, :HeureDebut, :HeureFin)");
 
         // Exécuter avec les paramètres
         $requete->execute(
