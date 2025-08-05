@@ -15,7 +15,7 @@
 
     <div class="titre">
         <h1>Welcome!</h1>
-        <h4>Sign in or create your account</h4>
+        <h4>Sign in or create your account </h4>
     </div>
 
     <form action="actions/new_account.php" method="POST">
